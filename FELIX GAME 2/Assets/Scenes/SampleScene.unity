@@ -812,7 +812,7 @@ GameObject:
   - component: {fileID: 1757132210}
   - component: {fileID: 1757132209}
   - component: {fileID: 1757132208}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -985,11 +985,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  groundDrag: 0
-  playerHeight: 0
+  groundDrag: 5
+  playerHeight: 2
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   orientation: {fileID: 280908016}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
